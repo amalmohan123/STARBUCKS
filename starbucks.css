@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: aquamarine;
+    font-family: "open sans", sans-serif;
+}
+
+.logo {
+    height: 75px;
+}
+
+.head-text-one {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    font-size: 14PX;
+    font-weight: 600;
+    width: 500px;
+    margin-left: 2px;
+    background-color: azure;
+}
+
+.head-text-two {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    background-color: azure;
+    margin-right: 50px;
+    font-size: 14px;
+
+}
+
+.icon {
+    margin-left: 900px;
+    height: 22px;
+}
+
+.body-margin {
+    margin: 40px;
+    /* background-color: blue; */
+
+}
+
+.first-div {
+    background-color: #c2d5ce;
+    height: 625px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.img-1 {
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+.sum-img {
+    width: 100%
+}
+
+.first-txt {
+    background-color: #00754a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.seco-div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 420px;
+    background-color: #c2d5ce;
+}
+
+.img-2 {
+    background-color: rgb(208, 197, 197);
+    width: 50%
+}
+
+.coffee-img {
+    width: 100%;
+
+}
+
+.sec-txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.therd-div {
+    margin-top: 40px;
+    height: 625px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-3 {
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.ice-coffee {
+    width: 100%;
+}
+
+.therd-txt {
+background-color: #00754a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.forth-div{
+    margin-top: 40px;
+    height: 625px;
+    background-color: blue;
+    display: flex;
+
+}
+
+.forth-txt{
+    width: 50%;
+    background-color: #00754a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-4{
+    width: 50%;
+}
+
+.milk-coffee{
+    width: 100%;
+}
+
+.fifth-div{
+    margin-top: 40px;
+    height: 600px;
+    background-color: brown;
+}
+
+
