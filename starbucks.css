@@ -5,6 +5,11 @@
 
 }
 
+body {
+    font-family: "open sans", sans-serif;
+
+}
+
 .head {
     display: flex;
     justify-content: space-between;
@@ -125,7 +130,7 @@
 }
 
 .therd-txt {
-background-color: #00754a;
+    background-color: #00754a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +138,7 @@ background-color: #00754a;
     width: 50%;
 }
 
-.forth-div{
+.forth-div {
     margin-top: 40px;
     height: 625px;
     background-color: blue;
@@ -141,7 +146,7 @@ background-color: #00754a;
 
 }
 
-.forth-txt{
+.forth-txt {
     width: 50%;
     background-color: #00754a;
     display: flex;
@@ -150,18 +155,77 @@ background-color: #00754a;
     justify-content: center;
 }
 
-.img-4{
+.img-4 {
     width: 50%;
 }
 
-.milk-coffee{
+.milk-coffee {
     width: 100%;
 }
 
-.fifth-div{
+.fifth-div {
+
     margin-top: 40px;
-    height: 600px;
+    height: 625px;
     background-color: brown;
+    display: flex;
+
 }
 
+.img-5 {
+    width: 50%;
+}
 
+.color-coffee {
+    width: 100%;
+}
+
+.fifth-txt {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.para {
+    height: 160px;
+    margin-top: 40px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-one {
+    margin-top: 40px;
+    height: 450px;
+    background-color: aqua;
+    display: flex;
+}
+
+.list-ftr {
+    margin-top: 30px;
+    list-style: none;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.icon-div{
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+    height: 35px;
+}
+
+.final-list{
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
